@@ -54,3 +54,18 @@ class CarreraOut(CarreraCreate):
     id: int
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class ConsultaPregunta(BaseModel):
+    pregunta: str
+
+
+class FuenteDocumento(BaseModel):
+    titulo: str
+    documento: str
+    seccion: Optional[str] = None
+
+
+class ConsultaRespuesta(BaseModel):
+    respuesta: str
+    fuentes: list[FuenteDocumento]
