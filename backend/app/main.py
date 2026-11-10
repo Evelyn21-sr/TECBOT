@@ -6,6 +6,7 @@ from .routers import (
     auth,
     becas,
     carreras,
+    consultas,
     convocatorias,
     eventos,
     noticias,
@@ -37,6 +38,7 @@ app.include_router(eventos.router)
 app.include_router(becas.router)
 app.include_router(servicios.router)
 app.include_router(recursos.router)
+app.include_router(consultas.router)
 
 
 @app.get("/")

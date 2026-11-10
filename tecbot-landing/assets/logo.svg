@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" role="img" aria-labelledby="tecbot-title">
+  <title id="tecbot-title">TecBot Académico</title>
+  <defs>
+    <linearGradient id="tb-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <g id="isotipo" transform="translate(4,6)">
+    <path d="M8 4h28a8 8 0 0 1 8 8v16a8 8 0 0 1-8 8H22l-10 8v-8H8a8 8 0 0 1-8-8V12a8 8 0 0 1 8-8z" fill="#162033" stroke="url(#tb-accent)" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="14" y="12" width="16" height="16" rx="3" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <circle cx="22" cy="20" r="3" fill="#34D399"/>
+    <path d="M14 16h-3M14 20h-3M14 24h-3M30 16h3M30 20h3M30 24h3M18 12v-3M22 12v-3M26 12v-3M18 28v3M22 28v3M26 28v3" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="wordmark" fill="#E6EDF6" font-family="'Plus Jakarta Sans','Segoe UI',Arial,sans-serif" font-size="22">
+    <text x="58" y="31" font-weight="700" fill="url(#tb-accent)">TecBot</text>
+    <text x="58" y="50" font-weight="500" font-size="16" fill="#E6EDF6" letter-spacing="0.3">Académico</text>
+  </g>
+</svg>

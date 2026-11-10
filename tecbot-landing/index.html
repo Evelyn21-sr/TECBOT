@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TecBot Académico: asistente de información sobre servicio social, residencias, titulación y acreditación." />
+  <title>TecBot Académico</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="navbar__container">
+      <a href="#inicio" class="navbar__brand" aria-label="TecBot Académico inicio">
+        <img src="assets/logo.svg" alt="TecBot Académico" />
+      </a>
+
+      <button class="navbar__toggle" type="button" aria-expanded="false" aria-controls="nav-menu nav-actions" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar__menu" id="nav-menu">
+        <li><a href="#caracteristicas" class="navbar__link">Características</a></li>
+        <li><a href="#procesos" class="navbar__link">Procesos</a></li>
+        <li><a href="#recursos" class="navbar__link">Recursos</a></li>
+      </ul>
+
+      <div class="navbar__actions" id="nav-actions">
+        <a href="#comenzar" class="btn btn--primary btn--small">Comenzar</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__content">
+        <span class="hero__badge">⚡ Demostración académica</span>
+
+        <h1 class="hero__title">Tu asistente inteligente para trámites académicos</h1>
+
+        <p class="hero__description">
+          TecBot Académico responde tus dudas sobre servicio social, residencias, titulación y acreditación.
+          Consulta información clara y confiable basada en documentación institucional.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#comenzar" class="btn btn--primary">Probar TecBot</a>
+          <a href="#procesos" class="btn btn--secondary">Ver procesos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="caracteristicas">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Características</h2>
+          <p class="section__subtitle">Un asistente diseñado para orientar a estudiantes con respuestas rápidas, claras y fundamentadas.</p>
+        </header>
+        <div class="feature-list">
+          <div class="feature-item">
+            <h3>Respuestas contextualizadas</h3>
+            <p>Atiende preguntas frecuentes sobre procesos académicos usando documentación de referencia.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Información centralizada</h3>
+            <p>Reúne en un solo lugar orientación sobre servicio social, residencias, titulación y acreditación.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Acceso sencillo</h3>
+            <p>Interfaz clara y moderna para que encuentres lo que necesitas sin complicaciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="procesos">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Procesos académicos</h2>
+          <p class="section__subtitle">
+            Consulta de forma rápida los temas más importantes y resuelve tus dudas con información basada en documentos institucionales.
+          </p>
+        </header>
+
+        <div class="procesos__grid">
+          <article class="proceso-card">
+            <div class="proceso-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 11c1.66 0 3-1.57 3-3.5S17.66 4 16 4s-3 1.57-3 3.5S14.34 11 16 11ZM8 11c1.66 0 3-1.57 3-3.5S9.66 4 8 4 5 5.57 5 7.5 6.34 11 8 11Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M8 13c-2.67 0-5 1.34-5 3v2h10v-2c0-1.66-2.33-3-5-3Zm8 0c-.33 0-.68.02-1.03.06C16.2 13.86 17 15.03 17 16v2h4v-2c0-1.66-2.33-3-5-3Z" fill="currentColor" opacity="0.9"/>
+              </svg>
+            </div>
+            <h3 class="proceso-card__title">Servicio social</h3>
+            <p class="proceso-card__description">
+              Conoce requisitos, periodos de registro, duración, reportes y pasos para liberar tu servicio social correctamente.
+            </p>
+          </article>
+
+          <article class="proceso-card">
+            <div class="proceso-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="4" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M8 20h8M10 8l-2 2 2 2m4-4 2 2-2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="proceso-card__title">Residencias profesionales</h3>
+            <p class="proceso-card__description">
+              Infórmate sobre lineamientos, anteproyecto, asesorías, documentación y seguimiento para concluir tus residencias.
+            </p>
+          </article>
+
+          <article class="proceso-card">
+            <div class="proceso-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3 2 8l10 5 10-5-10-5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M6 10.5V15c0 .4 2.2 2.5 6 2.5s6-2.1 6-2.5v-4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 8v6" stroke="#34D399" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="22" cy="16" r="1.2" fill="#34D399"/>
+              </svg>
+            </div>
+            <h3 class="proceso-card__title">Titulación</h3>
+            <p class="proceso-card__description">
+              Revisa opciones, requisitos, trámites y documentos necesarios para avanzar en tu proceso de titulación sin complicaciones.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="recursos">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Recursos y acreditación</h2>
+          <p class="section__subtitle">Consulta lineamientos, formatos de referencia y orientación sobre procesos de acreditación institucional.</p>
+        </header>
+        <div class="recursos-box" id="comenzar">
+          <p><strong>TecBot Académico</strong> está listo para ayudarte a resolver dudas con base en la documentación disponible. Selecciona un tema y comienza tu consulta.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>TecBot Académico · Demostración de asistente de información académica</p>
+  </footer>
+
+  <script>
+    (function () {
+      const toggle = document.querySelector('.navbar__toggle');
+      const menu = document.querySelector('.navbar__menu');
+      const actions = document.querySelector('.navbar__actions');
+      const links = document.querySelectorAll('.navbar__link, .navbar__actions .btn');
+
+      function setOpen(isOpen) {
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+        menu.classList.toggle('is-open', isOpen);
+        actions.classList.toggle('is-open', isOpen);
+      }
+
+      toggle.addEventListener('click', function () {
+        const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+        setOpen(!isOpen);
+      });
+
+      links.forEach(function (link) {
+        link.addEventListener('click', function () {
+          if (window.innerWidth <= 768) setOpen(false);
+        });
+      });
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 768) setOpen(false);
+      });
+    })();
+  </script>
+</body>
+</html>
