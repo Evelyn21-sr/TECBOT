@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #0f766e;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.enlaces {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.contenido {
+  flex: 1;
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 360px;
+}
+
+input,
+button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  background: #0f766e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

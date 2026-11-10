@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tecbot.db
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# Otros archivos de entorno
+.env.*
+!.env.example
+
+# Herramientas
+.vscode/
+.idea/
+.DS_Store
+
+# Otras bases de datos locales
+chroma_db/
+*.sqlite3
